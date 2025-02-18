@@ -10,6 +10,7 @@ a {
     display: block;
     color: #1d1c1c;
     text-align: center;
+    text-transform: uppercase;
     padding: 14px 20px;
     text-decoration: none;
     border-radius: 900px;
@@ -20,7 +21,13 @@ a:hover {
     text-decoration: underline;
 }
 
+#CP {
+    background-color: #d4eaf7;
+    text-decoration: underline;
+}
+
 section {
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -57,9 +64,7 @@ section .box {
     height: 200px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 0;
+    margin:20px 20px 0 0;
     padding: 20px;
     text-align: left;
   

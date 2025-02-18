@@ -1,0 +1,22 @@
+body {
+    background-color: #fffefb;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    display: block;
+    color: #1d1c1c;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 900px;
+}
+
+a:hover {
+    background-color: #d4eaf7;
+    text-decoration: underline;
+}
