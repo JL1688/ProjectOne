@@ -20,3 +20,157 @@ a:hover {
     background-color: #d4eaf7;
     text-decoration: underline;
 }
+
+#CP {
+    background-color: #d4eaf7;
+    text-decoration: underline;
+}
+
+ol,
+li {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+.grid-dogs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 95%;
+    height: 100%;
+    place-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.items,
+.letter {
+    font-size: 25px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.items h4 {
+    font-size: 15px;
+}
+
+.items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#golden-retriever {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+#border-collie {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+#samoyed {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+#husky {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+#shiba-inu {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+#D {
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: #00668c;
+}
+
+#O {
+    grid-area: 2 / 5 / 3 / 6;
+    background-color: #00668c;
+}
+
+#G {
+    grid-area: 3 / 5 / 4 / 6;
+    background-color: #00668c;
+}
+
+#S {
+    grid-area: 3 / 6 / 4 / 7;
+    background-color: #00668c;
+}
+
+.content2 {
+    grid-area: 2 / 1 / 4 / 4;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
+}
+
+.content {
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: 60px;
+    text-align: center;
+}
+
+.letter {
+    text-align: center;
+    color: #fffefb;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    width: 100%;
+}
+
+.food-card-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.food-card {
+    display: inline-block;
+    width: 15%;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.food-card img {
+    padding-top: 10px;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.food-card h4 {
+    margin: 10px 0 5px;
+    font-size: 15px;
+}
+
+.food-card p {
+    margin: 5px 0 10px;
+    font-size: 15px;
+    color: #666;
+}
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
