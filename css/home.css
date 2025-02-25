@@ -1,6 +1,6 @@
 body {
     background-color: #fffefb;
-    height: 100%;
+    max-height: 100%;
 }
 
 nav {
