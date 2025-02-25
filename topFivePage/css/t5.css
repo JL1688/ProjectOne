@@ -1,5 +1,11 @@
 body {
     background-color: #fffefb;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 15%;
 }
 
 nav {
@@ -168,9 +174,13 @@ li {
     color: #666;
 }
 
+footer {
+    flex: 0 0 10%;
+}
 
 #back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
+

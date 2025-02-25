@@ -1,5 +1,11 @@
 body {
     background-color: #fffefb;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 15%;
 }
 
 nav {
@@ -101,4 +107,8 @@ a:hover {
 .card:hover {
     height: 100%;
     transition: height 0.5s ease;
+}
+
+footer {
+    flex: 0 0 10%;
 }
