@@ -8,6 +8,10 @@ header {
     flex: 0 0 15%;
 }
 
+section {
+    flex: 1;
+}
+
 nav {
     display: flex;
 }
