@@ -26,11 +26,7 @@ a {
     border-radius: 900px;
 }
 
-a:hover {
-    background-color: #d4eaf7;
-    text-decoration: underline;
-}
-
+a:hover,
 #CP {
     background-color: #d4eaf7;
     text-decoration: underline;

@@ -26,11 +26,7 @@ a {
     border-radius: 900px;
 }
 
-a:hover {
-    background-color: #d4eaf7;
-    text-decoration: underline;
-}
-
+a:hover,
 #CP {
     background-color: #d4eaf7;
     text-decoration: underline;
@@ -59,7 +55,7 @@ a:hover {
     background-image: url(../img/yifei.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 #card3 {
